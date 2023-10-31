@@ -16,5 +16,6 @@ window.onload = function () {
 
     // then we show the story by removing the class attribute
     document.querySelector("div#story").removeAttribute("class");
+    event.preventDefault();
   };
 };
